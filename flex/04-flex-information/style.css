@@ -12,6 +12,30 @@ img {
   font-weight: 900;
 }
 
+/* Solution */
+
+/* Added space between title */
+.title {
+  margin-bottom: 32px; 
+}
+
+/* Horizontally center items */
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+/* Centered the title and other elements text */
+body {
+  text-align: center;
+}
+
+/* Helps with text wrapping and keeps items 200px wide */
+.info {
+  max-width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
